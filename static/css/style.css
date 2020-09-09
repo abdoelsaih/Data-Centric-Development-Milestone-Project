@@ -1,0 +1,331 @@
+/*------------------------------------------Font*/
+
+body {
+    font-family: Arial;
+}
+
+/*------------------------------------------Colours*/
+
+.highlight-colour {
+    color: #ff7e1a;
+    font-weight: 700;
+}
+
+.checked {
+    color: #ff7e1a;
+}
+
+hr {
+    border: 1px solid #ee6e73;
+    width: 75%;
+}
+
+a {
+    color: black;
+}
+
+/*------------------------------------------Buttons*/
+
+.btn {
+    background-color: #ee6e73;
+}
+
+.btn:hover {
+    background-color: black !important;
+}
+
+/*------------------------------------------Home page*/
+
+.recipe-header {
+    color: #ee6e73;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.daily-recipe-padding {
+    margin-bottom: 0px;
+}
+
+/*------------------------------------------Cuisine page*/
+
+.responsive-img-cuisine {
+    height: 245px !important;
+    width: 100%;
+}
+
+/*------------------------------------------Collections page*/
+
+.collections-header {
+    color: #ee6e73;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+
+.collections-type {
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    margin: 0px;
+}
+
+.recipe-count {
+    color: #ff7e1a;
+}
+
+/*------------------------------------------Health & Diet page*/
+
+.responsive-img-healthy {
+    height: 255px !important;
+    width: 100%;
+}
+
+/*------------------------------------------Special Padding/Margins/Display*/
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.container {
+    height: 100% !important;
+}
+
+.page-footer {
+    padding-top: 0px;
+}
+
+.recipe-padding {
+    padding-top: 10px !important;
+}
+
+.recipe-name-margin {
+    margin-bottom: 7px;
+    margin-top: 15px;
+}
+
+.rating-margin {
+    margin-bottom: 10px;
+}
+
+.ingredients-header-margin {
+    margin-bottom: 5px !important;
+}
+
+.ingredients-margin {
+    margin-bottom: 0px !important;
+}
+
+.img-padding {
+    padding-top: 10px !important;
+}
+
+/*------------------------------------------Images*/
+
+.responsive-img {
+    border: 2px solid #ee6e73;
+}
+
+/*------------------------------------------Media Queries*/
+
+@media (min-width: 320px) {
+
+    body {
+        background-color: #fff;
+    }
+
+    nav .brand-logo {
+        font-size: 13px;
+        left: 52%;
+    }
+
+    nav i.material-icons {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 19px;
+        font-weight: 700;
+    }
+
+    h2 {
+        font-size: 17px;
+        font-weight: 700;
+    }
+
+    img.responsive-img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .valign-wrapper {
+        display: inline;
+    }
+
+}
+
+@media (min-width: 360px) {
+
+    nav .brand-logo {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 375px) {
+
+    nav .brand-logo {
+        font-size: 16px;
+        left: 52%;
+    }
+}
+
+@media (min-width: 414px) {
+
+    nav .brand-logo {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    nav .brand-logo {
+        font-size: 38px;
+        left: 51%;
+    }
+
+    nav i.material-icons {
+        font-size: 25px;
+    }
+
+    .random-receipe-header {
+        font-size: 21px !important;
+    }
+
+    img.responsive-img {
+        height: 325px;
+    }
+
+    .daily-recipe-padding {
+        margin-bottom: 10px;
+    }
+
+    .collections-header {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .collections-type {
+        font-size: 20px;
+    }
+
+    .responsive-img-cuisine {
+        height: 300px !important;
+    }
+
+    .responsive-img-healthy {
+        height: 300px !important;
+    }
+
+    hr {
+        margin-bottom: 15px;
+    }
+
+    .column-style {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        -o-column-count: 2;
+        column-count: 2;
+        column-gap: 10px;
+    }
+
+    .list-align {
+        line-height: 1;
+    }
+
+    .valign-wrapper {
+        display: flex;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1366px) {
+
+    body {
+        background-color: #fff;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+
+    nav .brand-logo {
+        font-size: 31px;
+        left: 4%;
+    }
+
+    nav ul a {
+        font-size: 20px;
+    }
+
+    .collections-header {
+        text-align: center;
+    }
+
+    .responsive-img-cuisine {
+        height: 375px !important;
+    }
+}
+
+@media (min-width: 1366px) {
+
+    body {
+        background-color: #eeeeee;
+    }
+
+    nav .brand-logo {
+        font-size: 35px;
+        left: 4%;
+    }
+
+    nav i.material-icons {
+        font-size: 30px;
+    }
+
+    nav ul a {
+        font-size: 20px;
+    }
+
+    img.responsive-img {
+        width: 100%;
+        height: 450px;
+    }
+
+    .collections-header {
+        text-align: center;
+    }
+
+    .responsive-img-cuisine {
+        height: 400px !important;
+        width: 90% !important;
+    }
+
+    .health-padding {
+        padding-bottom: 418px;
+    }
+
+    .recipes-padding {
+        padding-bottom: 418px !important;
+    }
+}
